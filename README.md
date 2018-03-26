@@ -14,6 +14,9 @@ To use simply change the following parameters in Compute_all_features.py:
 
 If you only want to compute a subset of features, simply comment out feature function calls, and change the output variables.
 
+Also, keep in mind many of these features are from many other awesome researchers. This is simply an aggregation of my original features and many other features borrowed from others. Many have been shown useful in different news or social media text scenerios, others have not. Please see the feature page in the NELA toolkit for citations.
+
+----------------------------------------------------------------------------------------------------------------------
 Any publication resulting from the use of this work must cite the following publication::
 
 Benjamin D. Horne, William Dron, Sara Khedr, and Sibel Adali. "Assessing the News Landscape: A Multi-Module Toolkit for Evaluating the Credibility of News" WWW (2018).
