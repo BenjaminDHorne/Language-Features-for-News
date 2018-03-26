@@ -1,7 +1,16 @@
 # Language-Features-for-News
 
+This repository contains natural language features used in the NELA Toolkit (https://github.com/BenjaminDHorne/The-NELA-Toolkit) and various news studies. 
 
+Before using, ensure you have all Python requirements in requirements.txt and the resource folder. 
 
+To use simply change the following parameters in Compute_all_features.py:
+
+outfile - name of csv file to output
+outpath - path to write outfile
+text_file_start_path - path to set of text files or folders of text files to process. The filename will be used as the vector ID in output
+
+If you only want to compute a subset of features, simply comment out feature function calls, and change the output variables.
 
 Any publication resulting from the use of this work must cite the following publication::
 
