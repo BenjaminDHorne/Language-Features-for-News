@@ -27,12 +27,13 @@ def make_str(seq):
     return strseq
             
 #main <-----------------------------------------------------------------------------------------------------------
+Functions = Functions()
 outfile = "callitwhatyouwant.csv"
 outpath = "./"
 done = whatsbeendon(outfile)
-text_file_start_path = ""
+text_file_start_path = "D:/RPI Research/NELA Dataset/Data/Plain Text Data/done/Title/"
 
-cat_dict, stem_dict, counts_dict = load_LIWC_dictionaries()
+cat_dict, stem_dict, counts_dict = Functions.load_LIWC_dictionaries()
 liwc_cats = [cat_dict[cat] for cat in cat_dict]
 pos_tags = ["CC","CD","DT","EX","FW","IN","JJ","JJR","JJS","LS","MD","NN","NNS","NNP","NNPS","PDT","POS","PRP","PRP$","RB","RBR","RBS","RP","SYM","TO","UH","WP$","WRB","VB","VBD","VBG","VBN","VBP","VBZ","WDT","WP"]
 
@@ -59,7 +60,7 @@ for dirName, subdirList, fileList in os.walk(text_file_start_path):
         with open(path+fn) as textdata:
             text_content = [line.strip() for line in textdata]
             text = " ".join(text_content)
-            text = fix(text)
+            text = Functions.fix(text)
 
 
         if len(text) == 0:
