@@ -1,6 +1,6 @@
 # Language-Features-for-News
 
-This repository contains natural language features used in the NELA Toolkit (https://github.com/BenjaminDHorne/The-NELA-Toolkit) and various news studies. 
+This repository contains natural language features used in the NELA Toolkit (https://github.com/BenjaminDHorne/The-NELA-Toolkit) and various news studies (see http://homepages.rpi.edu/~horneb/). 
 
 Before using, ensure you have all Python requirements in requirements.txt and the resource folder. 
 
