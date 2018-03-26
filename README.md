@@ -7,7 +7,9 @@ Before using, ensure you have all Python requirements in requirements.txt and th
 To use simply change the following parameters in Compute_all_features.py:
 
 outfile - name of csv file to output
+
 outpath - path to write outfile
+
 text_file_start_path - path to set of text files or folders of text files to process. The filename will be used as the vector ID in output
 
 If you only want to compute a subset of features, simply comment out feature function calls, and change the output variables.
