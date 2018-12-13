@@ -357,10 +357,10 @@ def runInParallel(*funs):
 #main <-----------------------------------------------------------------------------------------------------------
 if __name__ == '__main__':
     freeze_support()
-    outfile = "test_new_feat_code.csv" # keep name for now
+    outfile = "test_new_feat_code.csv"
     outpath = "./"
     done = whatsbeendon(outfile)
-    text_file_start_path = "D:/RPI Research/News Producer Networks/Data/Plain Text Data/New Content/"
+    text_file_start_path = ""
 
     #load stuff
 
