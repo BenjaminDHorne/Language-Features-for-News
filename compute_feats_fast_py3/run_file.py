@@ -197,7 +197,7 @@ def get_all_from_queue(a_queue: Queue, a_bar: tqdm, save_file_handle, save_inter
 
 if __name__ == "__main__":
     text_file_start_path = Path(base_path, "..", "data/").resolve()
-    n_workers = 5
+    n_workers = 4
 
     # Make data queue
     data_queue = Queue()
