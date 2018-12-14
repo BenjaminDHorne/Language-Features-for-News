@@ -10,3 +10,5 @@ temp/
 data/
 
 compute_feats_fast_py3/src/__pycache__/*
+
+compute_feats_fast_py3/output_data/
