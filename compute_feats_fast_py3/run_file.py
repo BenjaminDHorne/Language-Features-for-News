@@ -1,3 +1,4 @@
+import csv
 import os
 import pickle
 import warnings
@@ -159,12 +160,12 @@ class ArticleProcessor(Process):
             self.output_queue.put(outstr)
 
 
-def run_save(save_file_handle, data):
+def run_save(csv_writer, data):
     for row in data:
-        save_file_handle.write(",".join(row) + "\n")
+        csv_writer.writerow(row)
 
 
-def get_all_from_queue(a_queue: Queue, a_bar: tqdm, save_file_handle, save_interval=20):
+def from_queue_2_file(a_queue: Queue, a_bar: tqdm, csv_writer, save_interval=20):
 
     # Initialize
     queue_data = []
@@ -177,7 +178,7 @@ def get_all_from_queue(a_queue: Queue, a_bar: tqdm, save_file_handle, save_inter
 
             # Check for saving
             if c_nr >= save_interval:
-                run_save(save_file_handle=save_file_handle, data=queue_data)
+                run_save(csv_writer=csv_writer, data=queue_data)
                 queue_data = []
                 c_nr = 0
 
@@ -192,7 +193,7 @@ def get_all_from_queue(a_queue: Queue, a_bar: tqdm, save_file_handle, save_inter
             break
 
     # Save remaining data
-    run_save(save_file_handle=save_file_handle, data=queue_data)
+    run_save(csv_writer=csv_writer, data=queue_data)
 
 
 if __name__ == "__main__":
@@ -232,10 +233,11 @@ if __name__ == "__main__":
     output_dir.mkdir(parents=True, exist_ok=True)
     with tqdm(total=file_nr, desc="Processing files", unit="file") as bar:
         with Path(output_dir, "processed_data.csv").open("w") as save_file:
+            writer = csv.writer(save_file, delimiter=",")
             while any([worker.is_alive() for worker in workers]):
-                get_all_from_queue(a_queue=results_queue, a_bar=bar, save_file_handle=save_file)
+                from_queue_2_file(a_queue=results_queue, a_bar=bar, csv_writer=writer)
             sleep(3)
-            get_all_from_queue(a_queue=results_queue, a_bar=bar, save_file_handle=save_file)
+            from_queue_2_file(a_queue=results_queue, a_bar=bar, csv_writer=writer)
 
     end_time = time()
 
