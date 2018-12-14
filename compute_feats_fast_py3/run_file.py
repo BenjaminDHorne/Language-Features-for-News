@@ -231,7 +231,7 @@ if __name__ == "__main__":
     # Get results
     output_dir = Path("output_data")
     output_dir.mkdir(parents=True, exist_ok=True)
-    with tqdm(total=file_nr, desc="Processing files", unit="file") as bar:
+    with tqdm(total=file_nr, desc="Processing files", unit="file", smoothing=0.1) as bar:
         with Path(output_dir, "processed_data.csv").open("w") as save_file:
             writer = csv.writer(save_file, delimiter=",")
             while any([worker.is_alive() for worker in workers]):
