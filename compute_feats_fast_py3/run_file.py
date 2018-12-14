@@ -197,16 +197,12 @@ def get_all_from_queue(a_queue: Queue, a_bar: tqdm, save_file_handle, save_inter
 
 if __name__ == "__main__":
     text_file_start_path = Path(base_path, "..", "data/").resolve()
-    print(text_file_start_path)
-    n_workers = 1
+    n_workers = 5
 
     # Make data queue
     data_queue = Queue()
     file_nr = 0
     for directory_name, _, file_list in os.walk(text_file_start_path):
-        if file_nr > 500:
-            break
-
         for fn in file_list:
             data_queue.put((file_nr, directory_name, fn))
             file_nr += 1
