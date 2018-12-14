@@ -244,3 +244,4 @@ if __name__ == "__main__":
     total_time = end_time - start_time
     print("\n"*3 + f"Total time: {total_time:.2f}s")
     print(f"Mean time per file: {total_time / file_nr:.4f}s")
+    print(f"Mean files per seconds: {1 / (total_time / file_nr):.2f}")
