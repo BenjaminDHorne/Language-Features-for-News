@@ -2,3 +2,4 @@ nltk
 collections
 pickle
 vaderSentiment
+tqdm

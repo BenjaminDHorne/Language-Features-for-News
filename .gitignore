@@ -1,2 +1,12 @@
 
 temp/
+
+\.idea/
+
+**.pyc
+
+**/__pycache__/**
+
+data/
+
+compute_feats_fast_py3/src/__pycache__/*
