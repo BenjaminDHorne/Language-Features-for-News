@@ -1,0 +1,142 @@
+"Moral Foundation: Harm": "HarmVice" - Moral Foundations Theory (Graham et al. 2009). The lexicons are using in Lin et al. 2017
+"Moral Foundation: Fairness": "FairnessVirtue" - Moral Foundations Theory (Graham et al. 2009). The lexicons are using in Lin et al. 2017
+"Moral Foundation: Cheating": "FairnessVice" - Moral Foundations Theory (Graham et al. 2009). The lexicons are using in Lin et al. 2017
+"Moral Foundation: Loyalty": "IngroupVirtue" - Moral Foundations Theory (Graham et al. 2009). The lexicons are using in Lin et al. 2017
+"Moral Foundation: Betrayal": "IngroupVice" - Moral Foundations Theory (Graham et al. 2009). The lexicons are using in Lin et al. 2017
+"Moral Foundation: Authority": "AuthorityVirtue" - Moral Foundations Theory (Graham et al. 2009). The lexicons are using in Lin et al. 2017
+"Moral Foundation: Subversion":"AuthorityVice" - Moral Foundations Theory (Graham et al. 2009). The lexicons are using in Lin et al. 2017
+"Moral Foundation: Purity": "PurityVirtue" - Moral Foundations Theory (Graham et al. 2009). The lexicons are using in Lin et al. 2017
+"Moral Foundation: Degradation": "PurityVice" - Moral Foundations Theory (Graham et al. 2009). The lexicons are using in Lin et al. 2017
+"General Moral Foundation": "MoralityGeneral" - Moral Foundations Theory (Graham et al. 2009). The lexicons are using in Lin et al. 2017
+"Bias Words": "bias_count" - number of bias words in Racasens et al.2013 lexicon
+"Assertives": "assertives_count" - number of assertives using Racasens el al. 2013 lexicon, also used in Mukherjee and Weikum 2015
+"Factives": "factives_count" - number of factives using Racasens el al. 2013 lexicon, also used in Mukherjee and Weikum 2015
+"Hedges": "hedges_count" - number of hedges using Racasens el al. 2013 lexicon, also used in Mukherjee and Weikum 2015
+"Implicatives": "implicatives_count" - number of implictives using Racasens el al. 2013 lexicon, also used in Mukherjee and Weikum 2015
+"Reporting Verbs": "report_verbs_count",
+"Positive Opinion": "positive_op_count" - number of positive opinion words from lexicon used in Mukherjee and Weikum 2015
+"Negative Opinion": "negative_op_count" - number of negative opinion words from lexicon used in Mukherjee and Weikum 2015
+"Weak Negative": "wneg_count" - number of weak negative words from lexicon used in Racasens et al.2013
+"Weak Positive": "wpos_count" - number of weak positive words from lexicon used in Racasens et al.2013
+"Weak Neutral": "wneu_count" -  number of weak neutral words from lexicon used in Racasens et al.2013
+"Strong Negative": "sneg_count" - number of strong negative words from lexicon used in Racasens et al.2013
+"Strong Positive": "spos_count" - number of strong positive words from lexicon used in Racasens et al.2013
+"Strong Neutral": "sneu_count" - number of strong neutral words from lexicon used in Racasens et al.2013
+"Lexical Diversity": "TTR" - also known as Type-Token Ratio, (# unique words)/(total words)
+"VADER Sentiment - Negative": "vad_neg" - negative sentiment score using Vader Sentiment
+"VADER Sentiment - Neutral": "vad_neu" - neutral sentiment score using Vader Sentiment
+"VADER Sentiment - Postive": "vad_pos" - positive sentiment score using Vader Sentiment
+"Flesch-Kincaid Readability": "FKE" -  Standard readability measure computed by 0.39*(total words/total sentences) + 11.8*(total syllables/total words) - 15.59
+"SMOG Grade Readability": "SMOG" -  Standard readability measure computed by 1.0430*√(#polysyllables * 30/(#sentences))+ 3.1291
+"Stop Words": "stop" - number of stop words (ex. the, a, an, etc.)
+"Average Word Length": "wordlen" - average number of characters in a word
+"Word Count": "WC"
+"Probability of Objectivity": "NB_pobj" - probability of subjective text using a Niave Bayes classifer trained on 10K subjective and objective sentences from Pang and Lee 2004
+"Probability of Subjectivity": "NB_psubj" - probability of objective text using a Niave Bayes classifer trained on 10K subjective and objective sentences from Pang and Lee 2004
+"Quote Usage": "quotes" 
+"Exclamation Mark Usage": "Exclaim"
+"Punctuation Usage": "AllPunc"
+"All Capitalization Usage": "allcaps" - number of words typed in all capitalized letters (ex. SHOCKING)
+"Coordinating Conjunction Usage": "CC" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Cardinal Number Usage": "CD" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Determiner Usage": "DT" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Existential 'There' Usage": "EX" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Foreign Word Usage": "FW" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Preposition/Subordinating Conjunction Usage": "IN_pos" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Adjective Usage": "JJ" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Comparative Adjective Usage": "JJR" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Superlative Adjective Usage": "JJS" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"List Item Marker Usage": "LS" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Modal Usage": "MD" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Singular/Mass Noun Usage": "NN" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Plural Noun Usage": "NNS" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Singular Proper Noun Usage": "NNP" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Plural Proper Noun Usage": "NNPS" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Predeterminer Usage": "PDT" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Possessive Ending Usage": "POS" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Personal Pronoun Usage": "PRP" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Possessive Pronoun Usage": "PRP$" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Adverb Usage": "RB" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Comparative Adverb Usage": "RBR" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Superlative Adverb Usage": "RBS" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Particle Usage": "RP" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Symbol Usage": "SYM" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"'to' Usage": "TO_pos" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Interjection Usage": "UH" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Possessive 'Wh- Pronoun Usage": "WP$" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Wh- Adverb Usage": "WRB" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Base Form Verb Usage": "VB" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Past Tensive Verb Usage": "VBD" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Gerund/Present Participle Verb Usage": "VBG" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Past Participle Verb Usage": "VBN" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Non-Third Person Singular Present Verb Usage": "VBP" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Third Person Singular Present Verb Usage": "VBZ" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Wh- Determiner Usage": "WDT" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Wh- Pronoun Usage": "WP" - POS feature is the normalized count of the POS in an article. This is done with a standard POS tagger
+"Ingestion Words": "ingest" - topic specific words to do with food and digestion from LIWC
+"Causation Words": "cause" - number of caustion (ex. because, effect) words using LIWC lexicon
+"Insight Words": "insight" - number of insight words (ex. think, know) using LIWC lexicon
+"Cognitive Process Words": "cogmech" - number of cognitive process words (includes cause, insight, discrepancy, tentative, certian) using LIWC lexicon
+"Sad Words": "sad" - number of sad emotion words using LIWC lexicon
+"Inhibition Words": "inhib" - number of inhibition words using LIWC lexicon
+"Certain Words": "certain" - number of certain words (ex. always, never) using LIWC lexicon
+"Tentative Words": "tentat" - number of tentative words (ex. maybe, perhaps) using LIWC lexicon
+"Discrepancy Words": "discrep" - number of discrepancy words (ex. should, would) using LIWC lexicon
+"Space Words": "space" - number of space (ex. down, in, thin) words using LIWC lexicon
+"Time Words": "time" -  number of time (ex. end, until, season) words using LIWC lexicon
+"Exclusive Words": "excl" - number of exclusive words using LIWC lexicon
+"Inclusive Words": "incl" - number of inclusive words using LIWC lexicon
+"Relative Words": "relativ" - number of relative (includes space, time, motion) words using LIWC lexicon
+"Motion Words": "motion" - number of motion (ex. arrive, car, go) words using LIWC lexicon
+"Quantifying Words": "quant" - number of words like few, many, much, using LIWC lexicon
+"Number Words": "number" - numbers used in text
+"Swear Words": "swear" - number of swear words using LIWC lexicon
+"Function Words": "funct" - number of function words (ex. it, to, no, very) using LIWC lexicon
+"Personal Pronoun Usage": "ppron" - number of pronouns (ex. I, them, itself) using LIWC lexicon
+"Pronoun Usage": "pronoun" - number of personal pronouns using LIWC lexicon
+"'we' Usage": "we" - number of 1st pers plural words (ex. we, us, our) using LIWC lexicon
+"'I' Usage": "i" - number of 1st pers singular words (ex. I, me, mine) using LIWC lexicon
+"'he'/'she' Usage": "shehe" - number of 3rd pers singular words (ex. she, her, him) using LIWC lexicon
+"'you' Usage": "you" - number of 2nd person words (ex. you, your, thou) using LIWC lexicon
+"Impersonal Pronoun Usage": "ipron" - number of impersonal pronouns (ex. it, it’s, those) using LIWC lexicon
+"'they' Usage": "they" - number of 3rd pers plural words (ex. they, their, they’d) using LIWC lexicon
+"Death Words": "death" - number of death (ex. because, effect) words using LIWC lexicon (topic-specific)
+"Biological Process Words": "bio" - umber of biology (includes health, sexual, body) words using LIWC lexicon (topic-specific)
+"Body Words": "body" - number of body (ex. cheek, hands, spit) words using LIWC lexicon (topic-specific)
+"Auditory Words": "hear" - number of auditory words (ex. listen, hearing) using LIWC lexicon
+"Somatic Words": "feel" - number of somatic words (ex. feels, touch) using LIWC lexicon
+"Perception Process Words": "percept" - number of perception words (ex. look, heard, feeling) using LIWC lexicon
+"Visual Words": "see" - number of Visual words (ex. view, saw, seen) using LIWC lexicon
+"Filler Words": "filler" - number of filler words (ex. Imean, youknow) using LIWC lexicon
+"Health Words": "health" -  number of health (ex. clinic, flu, pill) words using LIWC lexicon (topic-specific)
+"Sexual Words": "sexual" - number of sexual (ex. horny, love, incest) words using LIWC lexicon (topic-specific)
+"Social Words": "social" - number of social words using LIWC lexicon
+"Family Words": "family" - number of family words (ex. daughter, dad, aunt) using LIWC lexicon (topic-specific)
+"Friend Words": "friend" - number of friend words (ex. buddy, neighbor) using LIWC lexicon (topic-specific)
+"Human Words": "humans" - number of human words using LIWC lexicon (topic-specific)
+"Affective Process Words": "affect" - number of affective process words using LIWC lexicon 
+"Positive Emotion Words": "posemo" - number of positive emotion words using LIWC lexicon
+"Negative Emotion Words": "negemo" - number of negative emotion words using LIWC lexicon
+"Anxiety Words": "anx" - number of anxiety emotion words using LIWC lexicon
+"Anger Words": "anger" - number of anger emotion words using LIWC lexicon
+"Assent Words": "assent" - number of assent emotion words using LIWC lexicon
+"Non-fluency Words": "nonflu" - number of non-fluency words (ex. Hm, hmm, uh, uhh, uhm, um, umm) using LIWC lexicon
+"Verb Usage": "verb" - number of verbs using LIWC lexicon
+"Article Usage": "article" - number of articles using LIWC lexicon
+"Past Tense Usage": "past" - number of past tense words (ex. ago, did, talked) using LIWC lexicon
+"Auxiliary Verb Usage": "auxverb",
+"Future Tense Usage": "future" - number of future tense words (ex. may, will, soon) using LIWC lexicon
+"Present Tense Usage": "present" - number of present tense words (ex. today, is, now) using LIWC lexicon
+"Preposition Usage": "preps" - number of prepositions using LIWC lexicon
+"Adverb Usage": "adverb" - number of adverbs using LIWC lexicon
+"Negation Usage": "negate" - number of negations (ex. not) using LIWC lexicon
+"Conjunction Usage": "conj" - number of conjuctions using LIWC lexicon
+"Home Words": "home" - number of home (ex. kitchen, landlord) words using LIWC lexicon (personal concerns)
+"Leisure Words": "leisure" - number of leisure (ex. cook, chat, movie) words using LIWC lexicon (personal concerns)
+"Achievement Words": "achieve" - number of acheivement words (ex. win, success, better) using LIWC lexicon
+"Work Words": "work" - number of work (ex. job, majors, xerox) words using LIWC lexicon (personal concerns)
+"Religious Words": "relig" - number of religion (ex. altar, church) words using LIWC lexicon (personal concerns)
+"Money Words": "money" - number of money (ex. audit, cash, owe) words using LIWC lexicon (personal concerns)
+
+All features are also computed on the title alone, this is signified by "_title" in the abbreviated feature name. 
+
