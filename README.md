@@ -1,4 +1,5 @@
 # Language-Features-for-News
+**NOTE**: This repository is deprecated. Please use the updated version at:https://github.com/BenjaminDHorne/NELAFeatures.
 
 This repository contains natural language features used in the NELA Toolkit (https://github.com/BenjaminDHorne/The-NELA-Toolkit) and various news studies (see http://homepages.rpi.edu/~horneb/). 
 
