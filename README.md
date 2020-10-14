@@ -1,6 +1,8 @@
 # Language-Features-for-News
 **NOTE**: This code is for research purposes only!
+
 **NOTE**: This repository is deprecated. Please use the updated version at:https://github.com/BenjaminDHorne/NELAFeatures.
+
 **NOTE**: This repository requires the LIWC 2007 Dictionary. To access the dictionary, please contact Dr. James Pennebaker: pennebaker@utexas.edu. The dictionary can be placed in the resources folder once aquired. 
 
 This repository contains natural language features used in the NELA Toolkit (https://github.com/BenjaminDHorne/The-NELA-Toolkit) and various news studies (see http://homepages.rpi.edu/~horneb/). 
